@@ -1,5 +1,8 @@
+import sys
 import unittest
-from microservice.service import ServiceClass
+
+sys.path.insert(0, './microservice/service')
+from service import ServiceClass
 
 
 class TestServiceClass(unittest.TestCase):
